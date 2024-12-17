@@ -20,14 +20,10 @@ public class NewTest {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-		driver.get("https://practicetestautomation.com/practice-test-login/");		
-		System.out.println(driver.getTitle());
-		System.out.println(driver.getPageSource());
-		
-		
-  }
-  
-  
-  
-  
+		driver.get("https://practicetestautomation.com/practice-test-login/");			
+		System.out.println(driver.getPageSource());		
+    
+    
+  } 
+
 }
